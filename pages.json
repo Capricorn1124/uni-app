@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#f94d2a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "上课",
+        "iconPath": "static/c3.png",
+        "selectedIconPath": "static/c4.png"
+      },
+
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/c1.png",
+        "selectedIconPath": "static/c2.png"
+      }
+    ]
+  },
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "柯基写字",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}

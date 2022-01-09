@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "柯基写字",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#f94d2a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "上课",
+        "iconPath": "static/c3.png",
+        "selectedIconPath": "static/c4.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/c1.png",
+        "selectedIconPath": "static/c2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
